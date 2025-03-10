@@ -1,0 +1,100 @@
+{
+    "commands": [
+        {
+            "text": "take a screenshot",
+            "category": "screenshot",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "capture screen",
+            "category": "screenshot",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "take screenshot",
+            "category": "screenshot",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "capture my screen",
+            "category": "screenshot",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "show cpu usage",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "show memory status",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "play music",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "pause music",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "next track",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "previous track",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "play shape of you on youtube",
+            "category": "web_search",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "search youtube for bollywood songs",
+            "category": "web_search",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "open notepad",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "start chrome",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:00:00"
+        }
+    ],
+    "categories": {
+        "screenshot": [
+            "take a screenshot",
+            "capture screen",
+            "take screenshot",
+            "capture my screen"
+        ],
+        "system_info": [
+            "show cpu usage",
+            "show memory status"
+        ],
+        "media_control": [
+            "play music",
+            "pause music",
+            "next track",
+            "previous track"
+        ],
+        "web_search": [
+            "play shape of you on youtube",
+            "search youtube for bollywood songs"
+        ],
+        "system_control": [
+            "open notepad",
+            "start chrome"
+        ]
+    }
+}

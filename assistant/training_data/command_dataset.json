@@ -1,0 +1,578 @@
+{
+    "commands": [
+        {
+            "text": "open notepad",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "start notepad",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:00:01"
+        },
+        {
+            "text": "launch notepad",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:00:02"
+        },
+        {
+            "text": "can you open notepad for me",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:00:03"
+        },
+        {
+            "text": "please open notepad",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:00:04"
+        },
+        {
+            "text": "i need notepad",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:00:05"
+        },
+        {
+            "text": "open calculator",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:01:00"
+        },
+        {
+            "text": "start calculator",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:01:01"
+        },
+        {
+            "text": "can you open the calculator",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:01:02"
+        },
+        {
+            "text": "i need to calculate something",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:01:03"
+        },
+        {
+            "text": "open chrome",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:02:00"
+        },
+        {
+            "text": "start chrome browser",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:02:01"
+        },
+        {
+            "text": "launch google chrome",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:02:02"
+        },
+        {
+            "text": "can you open chrome for me",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:02:03"
+        },
+        {
+            "text": "i want to browse the internet",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:02:04"
+        },
+        {
+            "text": "search youtube for music",
+            "category": "web_search",
+            "timestamp": "2024-03-20T10:03:00"
+        },
+        {
+            "text": "find music on youtube",
+            "category": "web_search",
+            "timestamp": "2024-03-20T10:03:01"
+        },
+        {
+            "text": "look up music videos on youtube",
+            "category": "web_search",
+            "timestamp": "2024-03-20T10:03:02"
+        },
+        {
+            "text": "can you search youtube for music",
+            "category": "web_search",
+            "timestamp": "2024-03-20T10:03:03"
+        },
+        {
+            "text": "i want to watch music on youtube",
+            "category": "web_search",
+            "timestamp": "2024-03-20T10:03:04"
+        },
+        {
+            "text": "google search python programming",
+            "category": "web_search",
+            "timestamp": "2024-03-20T10:04:00"
+        },
+        {
+            "text": "search for python programming on google",
+            "category": "web_search",
+            "timestamp": "2024-03-20T10:04:01"
+        },
+        {
+            "text": "find python programming tutorials",
+            "category": "web_search",
+            "timestamp": "2024-03-20T10:04:02"
+        },
+        {
+            "text": "look up python programming",
+            "category": "web_search",
+            "timestamp": "2024-03-20T10:04:03"
+        },
+        {
+            "text": "i need information about python programming",
+            "category": "web_search",
+            "timestamp": "2024-03-20T10:04:04"
+        },
+        {
+            "text": "show cpu usage",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:05:00"
+        },
+        {
+            "text": "what's my cpu usage",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:05:01"
+        },
+        {
+            "text": "check cpu usage",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:05:02"
+        },
+        {
+            "text": "how much cpu am i using",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:05:03"
+        },
+        {
+            "text": "display cpu usage",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:05:04"
+        },
+        {
+            "text": "show memory status",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:06:00"
+        },
+        {
+            "text": "what's my memory usage",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:06:01"
+        },
+        {
+            "text": "check memory status",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:06:02"
+        },
+        {
+            "text": "how much memory am i using",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:06:03"
+        },
+        {
+            "text": "display memory status",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:06:04"
+        },
+        {
+            "text": "show disk usage",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:07:00"
+        },
+        {
+            "text": "what's my disk usage",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:07:01"
+        },
+        {
+            "text": "check disk space",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:07:02"
+        },
+        {
+            "text": "how much disk space do i have left",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:07:03"
+        },
+        {
+            "text": "display disk usage",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:07:04"
+        },
+        {
+            "text": "play music",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:08:00"
+        },
+        {
+            "text": "start playing music",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:08:01"
+        },
+        {
+            "text": "can you play some music",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:08:02"
+        },
+        {
+            "text": "i want to listen to music",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:08:03"
+        },
+        {
+            "text": "pause music",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:09:00"
+        },
+        {
+            "text": "stop the music",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:09:01"
+        },
+        {
+            "text": "can you pause the music",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:09:02"
+        },
+        {
+            "text": "next track",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:10:00"
+        },
+        {
+            "text": "skip to next song",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:10:01"
+        },
+        {
+            "text": "play next song",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:10:02"
+        },
+        {
+            "text": "previous track",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:11:00"
+        },
+        {
+            "text": "go back to previous song",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:11:01"
+        },
+        {
+            "text": "play previous song",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:11:02"
+        },
+        {
+            "text": "volume up",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:12:00"
+        },
+        {
+            "text": "increase volume",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:12:01"
+        },
+        {
+            "text": "make it louder",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:12:02"
+        },
+        {
+            "text": "volume down",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:13:00"
+        },
+        {
+            "text": "decrease volume",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:13:01"
+        },
+        {
+            "text": "make it quieter",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:13:02"
+        },
+        {
+            "text": "take screenshot",
+            "category": "screenshot",
+            "timestamp": "2024-03-20T10:14:00"
+        },
+        {
+            "text": "capture screen",
+            "category": "screenshot",
+            "timestamp": "2024-03-20T10:15:00"
+        },
+        {
+            "text": "take a picture of my screen",
+            "category": "screenshot",
+            "timestamp": "2024-03-20T10:15:01"
+        },
+        {
+            "text": "save my screen",
+            "category": "screenshot",
+            "timestamp": "2024-03-20T10:15:02"
+        },
+        {
+            "text": "can you take a screenshot",
+            "category": "screenshot",
+            "timestamp": "2024-03-20T10:15:03"
+        },
+        {
+            "text": "weather in london",
+            "category": "weather",
+            "timestamp": "2024-03-20T10:16:00"
+        },
+        {
+            "text": "what's the weather in london",
+            "category": "weather",
+            "timestamp": "2024-03-20T10:16:01"
+        },
+        {
+            "text": "check weather for london",
+            "category": "weather",
+            "timestamp": "2024-03-20T10:16:02"
+        },
+        {
+            "text": "how's the weather in london",
+            "category": "weather",
+            "timestamp": "2024-03-20T10:16:03"
+        },
+        {
+            "text": "show weather for new york",
+            "category": "weather",
+            "timestamp": "2024-03-20T10:17:00"
+        },
+        {
+            "text": "what's the weather like in new york",
+            "category": "weather",
+            "timestamp": "2024-03-20T10:17:01"
+        },
+        {
+            "text": "check weather in new york",
+            "category": "weather",
+            "timestamp": "2024-03-20T10:17:02"
+        },
+        {
+            "text": "how's the weather in new york",
+            "category": "weather",
+            "timestamp": "2024-03-20T10:17:03"
+        },
+        {
+            "text": "show news",
+            "category": "news",
+            "timestamp": "2024-03-20T10:18:00"
+        },
+        {
+            "text": "latest headlines",
+            "category": "news",
+            "timestamp": "2024-03-20T10:19:00"
+        },
+        {
+            "text": "what's in the news",
+            "category": "news",
+            "timestamp": "2024-03-20T10:19:01"
+        },
+        {
+            "text": "tell me the latest news",
+            "category": "news",
+            "timestamp": "2024-03-20T10:19:02"
+        },
+        {
+            "text": "what's happening in the world",
+            "category": "news",
+            "timestamp": "2024-03-20T10:19:03"
+        },
+        {
+            "text": "show me today's headlines",
+            "category": "news",
+            "timestamp": "2024-03-20T10:19:04"
+        },
+        {
+            "text": "shutdown computer",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:20:00"
+        },
+        {
+            "text": "turn off the computer",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:20:01"
+        },
+        {
+            "text": "shut down my pc",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:20:02"
+        },
+        {
+            "text": "restart computer",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:21:00"
+        },
+        {
+            "text": "reboot the computer",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:21:01"
+        },
+        {
+            "text": "restart my pc",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:21:02"
+        },
+        {
+            "text": "open firefox",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:22:00"
+        },
+        {
+            "text": "start firefox browser",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:22:01"
+        },
+        {
+            "text": "launch firefox",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:22:02"
+        },
+        {
+            "text": "open word",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:23:00"
+        },
+        {
+            "text": "start microsoft word",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:23:01"
+        },
+        {
+            "text": "launch word document",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:23:02"
+        },
+        {
+            "text": "open excel",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:24:00"
+        },
+        {
+            "text": "start microsoft excel",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:24:01"
+        },
+        {
+            "text": "launch excel spreadsheet",
+            "category": "system_control",
+            "timestamp": "2024-03-20T10:24:02"
+        }
+    ],
+    "categories": {
+        "system_control": [
+            "open notepad",
+            "start notepad",
+            "launch notepad",
+            "can you open notepad for me",
+            "please open notepad",
+            "i need notepad",
+            "open calculator",
+            "start calculator",
+            "can you open the calculator",
+            "i need to calculate something",
+            "open chrome",
+            "start chrome browser",
+            "launch google chrome",
+            "can you open chrome for me",
+            "i want to browse the internet",
+            "shutdown computer",
+            "turn off the computer",
+            "shut down my pc",
+            "restart computer",
+            "reboot the computer",
+            "restart my pc",
+            "open firefox",
+            "start firefox browser",
+            "launch firefox",
+            "open word",
+            "start microsoft word",
+            "launch word document",
+            "open excel",
+            "start microsoft excel",
+            "launch excel spreadsheet"
+        ],
+        "web_search": [
+            "search youtube for music",
+            "find music on youtube",
+            "look up music videos on youtube",
+            "can you search youtube for music",
+            "i want to watch music on youtube",
+            "google search python programming",
+            "search for python programming on google",
+            "find python programming tutorials",
+            "look up python programming",
+            "i need information about python programming"
+        ],
+        "system_info": [
+            "show cpu usage",
+            "what's my cpu usage",
+            "check cpu usage",
+            "how much cpu am i using",
+            "display cpu usage",
+            "show memory status",
+            "what's my memory usage",
+            "check memory status",
+            "how much memory am i using",
+            "display memory status",
+            "show disk usage",
+            "what's my disk usage",
+            "check disk space",
+            "how much disk space do i have left",
+            "display disk usage"
+        ],
+        "media_control": [
+            "play music",
+            "start playing music",
+            "can you play some music",
+            "i want to listen to music",
+            "pause music",
+            "stop the music",
+            "can you pause the music",
+            "next track",
+            "skip to next song",
+            "play next song",
+            "previous track",
+            "go back to previous song",
+            "play previous song",
+            "volume up",
+            "increase volume",
+            "make it louder",
+            "volume down",
+            "decrease volume",
+            "make it quieter"
+        ],
+        "screenshot": [
+            "take screenshot",
+            "capture screen",
+            "take a picture of my screen",
+            "save my screen",
+            "can you take a screenshot"
+        ],
+        "weather": [
+            "weather in london",
+            "what's the weather in london",
+            "check weather for london",
+            "how's the weather in london",
+            "show weather for new york",
+            "what's the weather like in new york",
+            "check weather in new york",
+            "how's the weather in new york"
+        ],
+        "news": [
+            "show news",
+            "latest headlines",
+            "what's in the news",
+            "tell me the latest news",
+            "what's happening in the world",
+            "show me today's headlines"
+        ]
+    }
+} 
