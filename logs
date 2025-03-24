@@ -1,0 +1,101 @@
+Initializing AI Assistant...
+Loading existing model
+AI Assistant started successfully
+User command: nadaniya on youtube
+Command: nadaniya on youtube
+Predicted category: screenshot
+Confidence: 0.31
+Rule-based category: web_search
+ML-based category: screenshot
+Using rule-based category
+Processing command: nadaniya on youtube
+Final category: web_search
+New commands saved for review
+Added new command to review queue: nadaniya on youtube (web_search)
+User command: on youtube play nadaniya on youtube
+Command: on youtube play nadaniya on youtube
+Predicted category: screenshot
+Confidence: 0.29
+Low confidence prediction
+Rule-based category: web_search
+ML-based category: None
+Using rule-based category
+Processing command: on youtube play nadaniya on youtube
+Final category: web_search
+New commands saved for review
+Added new command to review queue: on youtube play nadaniya on youtube (web_search)
+User command: exit
+Cleaning up resources...
+Cleanup completed
+Initializing AI Assistant...
+Loading existing model
+AI Assistant started successfully
+User command: search
+Command: search
+Predicted category: screenshot
+Confidence: 0.33
+Rule-based category: web_search
+ML-based category: screenshot
+Using rule-based category
+Processing command: search
+Final category: web_search
+New commands saved for review
+Added new command to review queue: search (web_search)
+User command: search about laptop
+Command: search about laptop
+Predicted category: screenshot
+Confidence: 0.33
+Rule-based category: web_search
+ML-based category: screenshot
+Using rule-based category
+Processing command: search about laptop
+Final category: web_search
+New commands saved for review
+Added new command to review queue: search about laptop (web_search)
+User command: about laptop
+Command: about laptop
+Predicted category: screenshot
+Confidence: 0.37
+Rule-based category: web_search
+ML-based category: screenshot
+Using rule-based category
+Processing command: about laptop
+Final category: web_search
+New commands saved for review
+Added new command to review queue: about laptop (web_search)
+User command: take a screenshot
+Command: take a screenshot
+Predicted category: screenshot
+Confidence: 0.68
+Rule-based category: screenshot
+ML-based category: screenshot
+Using rule-based category
+Processing command: take a screenshot
+Final category: screenshot
+New commands saved for review
+Added new command to review queue: take a screenshot (screenshot)
+User command: tell me news updates
+Command: tell me news updates
+Predicted category: screenshot
+Confidence: 0.37
+Rule-based category: news
+ML-based category: screenshot
+Using ML-based category
+Processing command: tell me news updates
+Final category: screenshot
+New commands saved for review
+Added new command to review queue: tell me news updates (screenshot)
+User command: i am very angry
+Command: i am very angry
+Predicted category: screenshot
+Confidence: 0.37
+Rule-based category: web_search
+ML-based category: screenshot
+Using rule-based category
+Processing command: i am very angry
+Final category: web_search
+New commands saved for review
+Added new command to review queue: i am very angry (web_search)
+User command: quit
+Cleaning up resources...
+Cleanup completed

@@ -24,6 +24,351 @@
             "text": "what's happening in world",
             "category": "web_search",
             "timestamp": "2025-03-10T20:32:13.997834"
+        },
+        {
+            "text": "youtube search for music",
+            "category": "web_search",
+            "timestamp": "2025-03-15T10:26:37.681348"
+        },
+        {
+            "text": "play music",
+            "category": "media_control",
+            "timestamp": "2025-03-15T10:27:22.065564"
+        },
+        {
+            "text": "next",
+            "category": "media_control",
+            "timestamp": "2025-03-15T10:27:34.180478"
+        },
+        {
+            "text": "play despacito on youtube",
+            "category": "web_search",
+            "timestamp": "2025-03-15T10:52:36.189262"
+        },
+        {
+            "text": "sunai de raha hai sourabh",
+            "category": "web_search",
+            "timestamp": "2025-03-15T10:53:01.690280"
+        },
+        {
+            "text": "take a screenshot",
+            "category": "screenshot",
+            "timestamp": "2025-03-15T10:58:04.674319"
+        },
+        {
+            "text": "show memory status",
+            "category": "system_info",
+            "timestamp": "2025-03-15T11:18:27.642175"
+        },
+        {
+            "text": "aur kitna execute karega",
+            "category": "web_search",
+            "timestamp": "2025-03-15T11:19:11.193598"
+        },
+        {
+            "text": "play music",
+            "category": "media_control",
+            "timestamp": "2025-03-15T11:19:32.564845"
+        },
+        {
+            "text": "play music",
+            "category": "audio_control",
+            "timestamp": "2025-03-15T11:41:52.031919"
+        },
+        {
+            "text": "sourav are you able to listen",
+            "category": "web_search",
+            "timestamp": "2025-03-15T11:42:11.100299"
+        },
+        {
+            "text": "watch a movie",
+            "category": "screenshot",
+            "timestamp": "2025-03-15T11:42:34.564296"
+        },
+        {
+            "text": "next track",
+            "category": "media_control",
+            "timestamp": "2025-03-15T11:43:04.671562"
+        },
+        {
+            "text": "watch a movie",
+            "category": "screenshot",
+            "timestamp": "2025-03-15T11:43:40.602983"
+        },
+        {
+            "text": "next track",
+            "category": "media_control",
+            "timestamp": "2025-03-15T11:43:54.442131"
+        },
+        {
+            "text": "start a video",
+            "category": "video_control",
+            "timestamp": "2025-03-15T11:50:58.807624"
+        },
+        {
+            "text": "stop",
+            "category": "media_control",
+            "timestamp": "2025-03-15T11:51:30.827859"
+        },
+        {
+            "text": "volume down",
+            "category": "media_control",
+            "timestamp": "2025-03-15T11:51:57.663101"
+        },
+        {
+            "text": "volume down",
+            "category": "media_control",
+            "timestamp": "2025-03-15T11:52:11.694400"
+        },
+        {
+            "text": "increase volume",
+            "category": "media_control",
+            "timestamp": "2025-03-15T11:52:27.681573"
+        },
+        {
+            "text": "next track",
+            "category": "media_control",
+            "timestamp": "2025-03-15T11:52:53.373132"
+        },
+        {
+            "text": "start video",
+            "category": "video_control",
+            "timestamp": "2025-03-15T11:56:07.655714"
+        },
+        {
+            "text": "pause pause video",
+            "category": "media_control",
+            "timestamp": "2025-03-15T11:56:27.591714"
+        },
+        {
+            "text": "pause video",
+            "category": "media_control",
+            "timestamp": "2025-03-15T11:56:38.402345"
+        },
+        {
+            "text": "play music",
+            "category": "audio_control",
+            "timestamp": "2025-03-15T11:59:23.762362"
+        },
+        {
+            "text": "stop",
+            "category": "media_control",
+            "timestamp": "2025-03-15T11:59:39.001449"
+        },
+        {
+            "text": "next",
+            "category": "media_control",
+            "timestamp": "2025-03-15T11:59:52.653795"
+        },
+        {
+            "text": "maxtrack bhai",
+            "category": "audio_control",
+            "timestamp": "2025-03-15T12:00:13.926445"
+        },
+        {
+            "text": "next track",
+            "category": "media_control",
+            "timestamp": "2025-03-15T12:00:30.603680"
+        },
+        {
+            "text": "ok play video",
+            "category": "video_control",
+            "timestamp": "2025-03-15T12:00:49.514134"
+        },
+        {
+            "text": "pause video",
+            "category": "media_control",
+            "timestamp": "2025-03-15T12:01:03.693547"
+        },
+        {
+            "text": "resume",
+            "category": "web_search",
+            "timestamp": "2025-03-15T12:01:20.993216"
+        },
+        {
+            "text": "play",
+            "category": "web_search",
+            "timestamp": "2025-03-15T12:01:35.491615"
+        },
+        {
+            "text": "play video",
+            "category": "video_control",
+            "timestamp": "2025-03-15T12:05:52.726192"
+        },
+        {
+            "text": "next track",
+            "category": "media_control",
+            "timestamp": "2025-03-15T12:06:05.404379"
+        },
+        {
+            "text": "next track",
+            "category": "media_control",
+            "timestamp": "2025-03-15T12:06:22.632907"
+        },
+        {
+            "text": "next track",
+            "category": "media_control",
+            "timestamp": "2025-03-15T12:06:35.991281"
+        },
+        {
+            "text": "nahin ho raha bhai",
+            "category": "web_search",
+            "timestamp": "2025-03-15T12:06:52.920713"
+        },
+        {
+            "text": "play video",
+            "category": "video_control",
+            "timestamp": "2025-03-15T12:10:37.065963"
+        },
+        {
+            "text": "play video",
+            "category": "video_control",
+            "timestamp": "2025-03-15T12:12:30.688274"
+        },
+        {
+            "text": "next track",
+            "category": "media_control",
+            "timestamp": "2025-03-15T12:12:48.985513"
+        },
+        {
+            "text": "video",
+            "category": "video_control",
+            "timestamp": "2025-03-15T12:16:41.076881"
+        },
+        {
+            "text": "next track",
+            "category": "media_control",
+            "timestamp": "2025-03-15T12:16:57.630516"
+        },
+        {
+            "text": "play video",
+            "category": "video_control",
+            "timestamp": "2025-03-15T12:20:03.652850"
+        },
+        {
+            "text": "next track",
+            "category": "media_control",
+            "timestamp": "2025-03-15T12:20:24.393863"
+        },
+        {
+            "text": "achcha achcha",
+            "category": "web_search",
+            "timestamp": "2025-03-15T12:20:47.030870"
+        },
+        {
+            "text": "video",
+            "category": "video_control",
+            "timestamp": "2025-03-15T12:20:59.747410"
+        },
+        {
+            "text": "next video",
+            "category": "media_control",
+            "timestamp": "2025-03-15T12:21:20.879353"
+        },
+        {
+            "text": "search weather of mumbai",
+            "category": "web_search",
+            "timestamp": "2025-03-15T12:34:25.739046"
+        },
+        {
+            "text": "aaj ka bajar hai",
+            "category": "web_search",
+            "timestamp": "2025-03-15T14:38:21.522745"
+        },
+        {
+            "text": "sing in youtube",
+            "category": "web_search",
+            "timestamp": "2025-03-23T14:57:21.765845"
+        },
+        {
+            "text": "arijit singh song in youtube",
+            "category": "web_search",
+            "timestamp": "2025-03-23T14:57:37.581005"
+        },
+        {
+            "text": "play besabriyaan on youtube",
+            "category": "web_search",
+            "timestamp": "2025-03-23T14:58:07.506140"
+        },
+        {
+            "text": "play music",
+            "category": "audio_control",
+            "timestamp": "2025-03-23T15:00:25.879433"
+        },
+        {
+            "text": "nadaniya on youtube",
+            "category": "web_search",
+            "timestamp": "2025-03-23T15:04:19.788268"
+        },
+        {
+            "text": "on youtube play nadaniya on youtube",
+            "category": "web_search",
+            "timestamp": "2025-03-23T15:04:58.467201"
+        },
+        {
+            "text": "search",
+            "category": "web_search",
+            "timestamp": "2025-03-23T15:32:04.035362"
+        },
+        {
+            "text": "search about laptop",
+            "category": "web_search",
+            "timestamp": "2025-03-23T15:32:25.628306"
+        },
+        {
+            "text": "about laptop",
+            "category": "web_search",
+            "timestamp": "2025-03-23T15:32:40.051216"
+        },
+        {
+            "text": "take a screenshot",
+            "category": "screenshot",
+            "timestamp": "2025-03-23T15:33:01.017126"
+        },
+        {
+            "text": "tell me news updates",
+            "category": "screenshot",
+            "timestamp": "2025-03-23T15:33:17.953770"
+        },
+        {
+            "text": "i am very angry",
+            "category": "web_search",
+            "timestamp": "2025-03-23T15:33:36.547271"
+        },
+        {
+            "text": "about cat",
+            "category": "web_search",
+            "timestamp": "2025-03-23T15:46:26.913342"
+        },
+        {
+            "text": "about cat",
+            "category": "web_search",
+            "timestamp": "2025-03-23T15:46:40.324458"
+        },
+        {
+            "text": "play music",
+            "category": "audio_control",
+            "timestamp": "2025-03-23T15:47:00.853240"
+        },
+        {
+            "text": "play arijit singh song on youtube",
+            "category": "web_search",
+            "timestamp": "2025-03-23T15:50:24.854285"
+        },
+        {
+            "text": "nice work",
+            "category": "web_search",
+            "timestamp": "2025-03-23T15:50:48.546770"
+        },
+        {
+            "text": "the latest news",
+            "category": "screenshot",
+            "timestamp": "2025-03-23T15:56:02.131628"
+        },
+        {
+            "text": "write the seven like that",
+            "category": "screenshot",
+            "timestamp": "2025-03-23T15:56:33.135201"
         }
     ],
     "categories": {
@@ -32,7 +377,86 @@
             "play first video on youtube",
             "play never say never on youtube",
             "play second video on youtube",
-            "what's happening in world"
+            "what's happening in world",
+            "youtube search for music",
+            "play despacito on youtube",
+            "sunai de raha hai sourabh",
+            "aur kitna execute karega",
+            "sourav are you able to listen",
+            "resume",
+            "play",
+            "nahin ho raha bhai",
+            "achcha achcha",
+            "search weather of mumbai",
+            "aaj ka bajar hai",
+            "sing in youtube",
+            "arijit singh song in youtube",
+            "play besabriyaan on youtube",
+            "nadaniya on youtube",
+            "on youtube play nadaniya on youtube",
+            "search",
+            "search about laptop",
+            "about laptop",
+            "i am very angry",
+            "about cat",
+            "about cat",
+            "play arijit singh song on youtube",
+            "nice work"
+        ],
+        "media_control": [
+            "play music",
+            "next",
+            "play music",
+            "next track",
+            "next track",
+            "stop",
+            "volume down",
+            "volume down",
+            "increase volume",
+            "next track",
+            "pause pause video",
+            "pause video",
+            "stop",
+            "next",
+            "next track",
+            "pause video",
+            "next track",
+            "next track",
+            "next track",
+            "next track",
+            "next track",
+            "next track",
+            "next video"
+        ],
+        "screenshot": [
+            "take a screenshot",
+            "watch a movie",
+            "watch a movie",
+            "take a screenshot",
+            "tell me news updates",
+            "the latest news",
+            "write the seven like that"
+        ],
+        "system_info": [
+            "show memory status"
+        ],
+        "audio_control": [
+            "play music",
+            "play music",
+            "maxtrack bhai",
+            "play music",
+            "play music"
+        ],
+        "video_control": [
+            "start a video",
+            "start video",
+            "ok play video",
+            "play video",
+            "play video",
+            "play video",
+            "video",
+            "play video",
+            "video"
         ]
     }
 }

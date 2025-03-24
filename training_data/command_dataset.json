@@ -21,12 +21,62 @@
             "timestamp": "2024-03-20T10:00:00"
         },
         {
+            "text": "screenshot now",
+            "category": "screenshot",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "take a picture of my screen",
+            "category": "screenshot",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "save my screen",
+            "category": "screenshot",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "grab a screenshot",
+            "category": "screenshot",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
             "text": "show cpu usage",
             "category": "system_info",
             "timestamp": "2024-03-20T10:00:00"
         },
         {
             "text": "show memory status",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "check system information",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "what's my cpu usage",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "show disk space",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "check memory usage",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "system status",
+            "category": "system_info",
+            "timestamp": "2024-03-20T10:00:00"
+        },
+        {
+            "text": "how much disk space do I have",
             "category": "system_info",
             "timestamp": "2024-03-20T10:00:00"
         },
@@ -76,11 +126,21 @@
             "take a screenshot",
             "capture screen",
             "take screenshot",
-            "capture my screen"
+            "capture my screen",
+            "screenshot now",
+            "take a picture of my screen",
+            "save my screen",
+            "grab a screenshot"
         ],
         "system_info": [
             "show cpu usage",
-            "show memory status"
+            "show memory status",
+            "check system information",
+            "what's my cpu usage",
+            "show disk space",
+            "check memory usage",
+            "system status",
+            "how much disk space do I have"
         ],
         "media_control": [
             "play music",

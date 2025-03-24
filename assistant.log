@@ -1,0 +1,93 @@
+Initializing AI Assistant...
+Loading existing model
+AI Assistant started successfully
+User command: about cat
+Command: about cat
+Predicted category: screenshot
+Confidence: 0.37
+Rule-based category: web_search
+ML-based category: screenshot
+Using rule-based category
+Processing command: about cat
+Final category: web_search
+New commands saved for review
+Added new command to review queue: about cat (web_search)
+User command: about cat
+Command: about cat
+Predicted category: screenshot
+Confidence: 0.37
+Rule-based category: web_search
+ML-based category: screenshot
+Using rule-based category
+Processing command: about cat
+Final category: web_search
+New commands saved for review
+Added new command to review queue: about cat (web_search)
+User command: play music
+Direct category assignment: audio_control for 'play music'
+Rule-based category: audio_control
+ML-based category: audio_control
+Using rule-based category
+Processing command: play music
+Final category: audio_control
+New commands saved for review
+Added new command to review queue: play music (audio_control)
+User interrupted the program
+Cleaning up resources...
+Cleanup completed
+Initializing AI Assistant...
+Loading existing model
+AI Assistant started successfully
+User command: volume down play music
+Direct category assignment: media_control for 'volume down play music'
+Rule-based category: media_control
+ML-based category: media_control
+Using rule-based category
+Processing command: volume down play music
+Final category: media_control
+User command: decrease volume
+Direct category assignment: media_control for 'decrease volume'
+Rule-based category: media_control
+ML-based category: media_control
+Using rule-based category
+Processing command: decrease volume
+Final category: media_control
+User command: play arijit singh song on youtube
+Direct category assignment: audio_control for 'play arijit singh song on youtube'
+Rule-based category: web_search
+ML-based category: audio_control
+Using rule-based category
+Processing command: play arijit singh song on youtube
+Final category: web_search
+New commands saved for review
+Added new command to review queue: play arijit singh song on youtube (web_search)
+User command: nice work
+Command: nice work
+Predicted category: screenshot
+Confidence: 0.37
+Rule-based category: web_search
+ML-based category: screenshot
+Using rule-based category
+Processing command: nice work
+Final category: web_search
+New commands saved for review
+Added new command to review queue: nice work (web_search)
+User command: exit
+Cleaning up resources...
+Cleanup completed
+Initializing AI Assistant...
+Loading existing model
+AI Assistant started successfully
+User command: the latest news
+Command: the latest news
+Predicted category: screenshot
+Confidence: 0.37
+New commands saved for review
+Added new command to review queue: the latest news (screenshot)
+User command: write the seven like that
+Command: write the seven like that
+Predicted category: screenshot
+Confidence: 0.37
+New commands saved for review
+Added new command to review queue: write the seven like that (screenshot)
+User command: exit

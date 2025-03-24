@@ -202,23 +202,78 @@
         },
         {
             "text": "play music",
-            "category": "media_control",
+            "category": "audio_control",
             "timestamp": "2024-03-20T10:08:00"
         },
         {
             "text": "start playing music",
-            "category": "media_control",
+            "category": "audio_control",
             "timestamp": "2024-03-20T10:08:01"
         },
         {
             "text": "can you play some music",
-            "category": "media_control",
+            "category": "audio_control",
             "timestamp": "2024-03-20T10:08:02"
         },
         {
             "text": "i want to listen to music",
-            "category": "media_control",
+            "category": "audio_control",
             "timestamp": "2024-03-20T10:08:03"
+        },
+        {
+            "text": "play song",
+            "category": "audio_control",
+            "timestamp": "2024-03-20T10:08:04"
+        },
+        {
+            "text": "play audio",
+            "category": "audio_control",
+            "timestamp": "2024-03-20T10:08:05"
+        },
+        {
+            "text": "play my favorite song",
+            "category": "audio_control",
+            "timestamp": "2024-03-20T10:08:06"
+        },
+        {
+            "text": "play some audio",
+            "category": "audio_control",
+            "timestamp": "2024-03-20T10:08:07"
+        },
+        {
+            "text": "play video",
+            "category": "video_control",
+            "timestamp": "2024-03-20T10:08:10"
+        },
+        {
+            "text": "play a movie",
+            "category": "video_control",
+            "timestamp": "2024-03-20T10:08:11"
+        },
+        {
+            "text": "watch video",
+            "category": "video_control",
+            "timestamp": "2024-03-20T10:08:12"
+        },
+        {
+            "text": "watch a movie",
+            "category": "video_control",
+            "timestamp": "2024-03-20T10:08:13"
+        },
+        {
+            "text": "play my favorite movie",
+            "category": "video_control",
+            "timestamp": "2024-03-20T10:08:14"
+        },
+        {
+            "text": "start a video",
+            "category": "video_control",
+            "timestamp": "2024-03-20T10:08:15"
+        },
+        {
+            "text": "show me a video",
+            "category": "video_control",
+            "timestamp": "2024-03-20T10:08:16"
         },
         {
             "text": "pause music",
@@ -464,6 +519,116 @@
             "text": "launch excel spreadsheet",
             "category": "system_control",
             "timestamp": "2024-03-20T10:24:02"
+        },
+        {
+            "text": "play specific song",
+            "category": "audio_control",
+            "timestamp": "2024-03-20T10:30:00"
+        },
+        {
+            "text": "play the song",
+            "category": "audio_control",
+            "timestamp": "2024-03-20T10:30:01"
+        },
+        {
+            "text": "play that song",
+            "category": "audio_control",
+            "timestamp": "2024-03-20T10:30:02"
+        },
+        {
+            "text": "play mp3",
+            "category": "audio_control",
+            "timestamp": "2024-03-20T10:30:03"
+        },
+        {
+            "text": "play audio file",
+            "category": "audio_control",
+            "timestamp": "2024-03-20T10:30:04"
+        },
+        {
+            "text": "play random song",
+            "category": "audio_control",
+            "timestamp": "2024-03-20T10:30:05"
+        },
+        {
+            "text": "play any song",
+            "category": "audio_control",
+            "timestamp": "2024-03-20T10:30:06"
+        },
+        {
+            "text": "play specific video",
+            "category": "video_control",
+            "timestamp": "2024-03-20T10:31:00"
+        },
+        {
+            "text": "play the video",
+            "category": "video_control",
+            "timestamp": "2024-03-20T10:31:01"
+        },
+        {
+            "text": "play that video",
+            "category": "video_control",
+            "timestamp": "2024-03-20T10:31:02"
+        },
+        {
+            "text": "play mp4",
+            "category": "video_control",
+            "timestamp": "2024-03-20T10:31:03"
+        },
+        {
+            "text": "play video file",
+            "category": "video_control",
+            "timestamp": "2024-03-20T10:31:04"
+        },
+        {
+            "text": "play random video",
+            "category": "video_control",
+            "timestamp": "2024-03-20T10:31:05"
+        },
+        {
+            "text": "play any video",
+            "category": "video_control",
+            "timestamp": "2024-03-20T10:31:06"
+        },
+        {
+            "text": "watch a video file",
+            "category": "video_control",
+            "timestamp": "2024-03-20T10:31:07"
+        },
+        {
+            "text": "show me a movie",
+            "category": "video_control",
+            "timestamp": "2024-03-20T10:31:08"
+        },
+        {
+            "text": "pause video",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:32:00"
+        },
+        {
+            "text": "pause the video",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:32:01"
+        },
+        {
+            "text": "stop video",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:32:02"
+        },
+        {
+            "text": "stop the video",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:32:03"
+        },
+        {
+            "text": "mute video",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:32:04"
+        },
+        {
+            "text": "mute the audio",
+            "category": "media_control",
+            "timestamp": "2024-03-20T10:32:05"
         }
     ],
     "categories": {
@@ -529,10 +694,6 @@
             "display disk usage"
         ],
         "media_control": [
-            "play music",
-            "start playing music",
-            "can you play some music",
-            "i want to listen to music",
             "pause music",
             "stop the music",
             "can you pause the music",
@@ -547,7 +708,48 @@
             "make it louder",
             "volume down",
             "decrease volume",
-            "make it quieter"
+            "make it quieter",
+            "pause video",
+            "pause the video",
+            "stop video",
+            "stop the video",
+            "mute video",
+            "mute the audio"
+        ],
+        "audio_control": [
+            "play music",
+            "start playing music",
+            "can you play some music",
+            "i want to listen to music",
+            "play song",
+            "play audio",
+            "play my favorite song",
+            "play some audio",
+            "play specific song",
+            "play the song",
+            "play that song",
+            "play mp3",
+            "play audio file",
+            "play random song",
+            "play any song"
+        ],
+        "video_control": [
+            "play video",
+            "play a movie",
+            "watch video",
+            "watch a movie",
+            "play my favorite movie",
+            "start a video",
+            "show me a video",
+            "play specific video",
+            "play the video",
+            "play that video",
+            "play mp4",
+            "play video file",
+            "play random video",
+            "play any video",
+            "watch a video file",
+            "show me a movie"
         ],
         "screenshot": [
             "take screenshot",

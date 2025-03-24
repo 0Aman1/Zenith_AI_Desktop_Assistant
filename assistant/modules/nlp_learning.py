@@ -53,6 +53,19 @@ class CommandLearner:
         # Initialize or load the model
         self.model = self.load_or_create_model()
         
+        # Define valid categories
+        self.valid_categories = [
+            "system_control", 
+            "web_search", 
+            "system_info", 
+            "media_control", 
+            "audio_control",  # New category
+            "video_control",  # New category
+            "screenshot", 
+            "weather", 
+            "news"
+        ]
+        
         # Load spaCy model for better text understanding
         try:
             self.nlp = spacy.load('en_core_web_sm')
@@ -118,12 +131,17 @@ class CommandLearner:
             return Pipeline([
                 ('tfidf', TfidfVectorizer(
                     preprocessor=self.preprocess_text,
-                    ngram_range=(1, 2),
-                    max_features=5000
+                    ngram_range=(1, 3),  # Include up to trigrams for better phrase matching
+                    max_features=10000,  # Increase features for better discrimination
+                    min_df=2,  # Minimum document frequency
+                    use_idf=True,
+                    sublinear_tf=True  # Apply sublinear tf scaling
                 )),
                 ('clf', RandomForestClassifier(
-                    n_estimators=100,
-                    max_depth=10,
+                    n_estimators=200,  # More trees for better accuracy
+                    max_depth=15,  # Deeper trees for more complex patterns
+                    min_samples_split=4,  # Require more samples to split
+                    class_weight='balanced',  # Handle class imbalance
                     random_state=42
                 ))
             ])
@@ -144,6 +162,11 @@ class CommandLearner:
         try:
             if not command or not category:
                 logger.warning("Invalid command or category")
+                return False
+                
+            # Validate category
+            if category not in self.valid_categories:
+                logger.warning(f"Invalid category: {category}")
                 return False
                 
             # Load existing new commands
@@ -210,6 +233,41 @@ class CommandLearner:
             doc = self.nlp(command)
             entities = {ent.text: ent.label_ for ent in doc.ents}
             
+            # Special handling for media commands
+            command_lower = command.lower()
+            
+            # Media control commands
+            if any(word in command_lower for word in ["pause", "stop", "next", "previous", "volume", "mute", "unmute", "louder", "quieter"]):
+                logger.info(f"Direct category assignment: media_control for '{command}'")
+                return "media_control"
+            
+            # File extension checks (high priority)
+            # Video file extensions
+            if any(ext in command_lower for ext in ["mp4", "avi", "mkv", "mov", "wmv", "flv"]):
+                logger.info(f"Direct category assignment: video_control for '{command}'")
+                return "video_control"
+            
+            # Audio file extensions
+            if any(ext in command_lower for ext in ["mp3", "wav", "m4a", "flac", "ogg", "aac"]):
+                logger.info(f"Direct category assignment: audio_control for '{command}'")
+                return "audio_control"
+            
+            # Direct category assignment for clear media commands
+            # Video commands
+            if any(phrase in command_lower for phrase in ["play video", "watch video", "play movie", "watch movie", "start video"]) or \
+               "video" in command_lower or "movie" in command_lower or "film" in command_lower or \
+               (("watch" in command_lower or "view" in command_lower) and 
+                not any(word in command_lower for word in ["news", "weather"])):
+                logger.info(f"Direct category assignment: video_control for '{command}'")
+                return "video_control"
+            
+            # Audio commands    
+            if any(phrase in command_lower for phrase in ["play music", "play song", "play audio", "listen to music", "start music"]) or \
+               "music" in command_lower or "song" in command_lower or "audio" in command_lower or \
+               any(word in command_lower for word in ["tune", "melody", "track", "playlist", "listen"]):
+                logger.info(f"Direct category assignment: audio_control for '{command}'")
+                return "audio_control"
+            
             # Make prediction with confidence score
             prediction = self.model.predict([command])[0]
             probabilities = self.model.predict_proba([command])[0]
@@ -220,8 +278,8 @@ class CommandLearner:
             logger.info(f"Predicted category: {prediction}")
             logger.info(f"Confidence: {confidence:.2f}")
             
-            # Return None if confidence is too low
-            if confidence < 0.4:
+            # Return None if confidence is too low (lowered threshold)
+            if confidence < 0.3:  # Decreased from 0.6 to 0.3
                 logger.warning("Low confidence prediction")
                 return None
                 
