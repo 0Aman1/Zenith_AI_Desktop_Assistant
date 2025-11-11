@@ -1,4 +1,4 @@
-# AI Desktop Assistant
+# Zenith Desktop Assistant
 
 An intelligent desktop assistant that uses speech recognition, natural language processing, and AI to help with various tasks.
 
